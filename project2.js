@@ -1,22 +1,22 @@
 // Variables
 
-let openBtn = document.getElementById("open-btn");
+/* let openBtn = document.getElementById("open-btn");
 let modalContainer = document.getElementById("modal-container");
-let closeBtn = document.getElementById("close-btn");
+let closeBtn = document.getElementById("close-btn"); */
 
 // Event Listeners
 
-openBtn.addEventListener("click", function () {
+/* openBtn.addEventListener("click", function () {
   modalContainer.style.display = "block";
 });
 
 closeBtn.addEventListener("click", function () {
   modalContainer.style.display = "none";
-});
+}); */
 
 // Clicking window will close the modal too
-window.addEventListener("click", function (e) {
+/* window.addEventListener("click", function (e) {
   if (e.target === modalContainer) {
     modalContainer.style.display = "none";
   }
-});
+}); */
